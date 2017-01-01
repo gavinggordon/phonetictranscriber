@@ -1,7 +1,7 @@
 {
 
 	"name": "gavinggordon/phonetictranscriber",
-	"description": "AA PHP class to transcribe English words into their IPA equivalent.",
+	"description": "A PHP class to transcribe English words into their IPA equivalent.",
 	"license": "MIT",
 	"keywords": [
 	  	"v1.0.0",
@@ -40,7 +40,9 @@
 			"url": "https://github.com/gavinggordon/phonetictranscriber.git"
 		}
 	],
-	"require": {},
+	"require": {
+		"rmccue/requests": "^1.7"
+	},
 	"autoload": {
 		"psr-4": {
 			"GGG\\": "src/"
