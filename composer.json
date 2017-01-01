@@ -1,0 +1,51 @@
+{
+
+	"name": "gavinggordon/phonetictranscriber",
+	"description": "A PHP class to transcribe English words into their IPA equivalent.",
+	"license": "MIT",
+	"keywords": [
+	  	"v1.0.0",
+		"php",
+		"language",
+		"translation",
+		"transcription",
+		"transcribe",
+		"IPA",
+		"International Phonetic Alphabet",
+		"linguistics",
+		"pronounciation",
+		"English",
+		"British",
+		"communication",
+		"educational"
+	],
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "support@gavingordon.com",
+			"homepage": "https://gavingordon.com",
+			"role": "Developer"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"homepage": "http://phonetictranscriber.gavingordon.com",
+	"support": {
+		"issues": "https://github.com/gavinggordon/phonetictranscriber/issues",
+		"source": "https://github.com/gavinggordon/phonetictranscriber"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/phonetictranscriber.git"
+		}
+	],
+	"require": {
+		"rmccue/requests": "^1.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"GGG\\": "src/"
+		}
+	}
+}
